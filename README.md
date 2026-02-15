@@ -1,11 +1,11 @@
-💳 Credit Card Fraud Detection Using Machine Learning
-📌 Project Overview
+#💳 Credit Card Fraud Detection Using Machine Learning
+##📌 Project Overview
 
 This project aims to detect fraudulent credit card transactions using Machine Learning techniques. The model analyzes transaction patterns and classifies transactions as valid or fraudulent.
 
 The system is deployed using Streamlit, providing an interactive web interface for real-time prediction.
 
-🎯 Objectives
+##🎯 Objectives
 
 Detect fraudulent transactions from transaction data
 
@@ -17,7 +17,7 @@ Deploy model using a web interface
 
 Provide real-time prediction
 
-📊 Dataset
+##📊 Dataset
 
 The dataset used is the Credit Card Fraud Detection dataset from Kaggle.
 
@@ -27,7 +27,7 @@ Fraud cases: 492
 
 Features: PCA transformed (V1–V28), Amount, Time, Class
 
-🤖 Machine Learning Models Used
+##🤖 Machine Learning Models Used
 
 Logistic Regression
 
@@ -35,31 +35,31 @@ Random Forest
 
 Gradient Boosting
 
-🏆 Best Model
+##🏆 Best Model
 
 Random Forest achieved the highest accuracy (~99.9%) and was selected as the final model.
 
-🧠 Methodology
+##🧠 Methodology
 
-Data Collection
+-Data Collection
 
-Data Preprocessing
+-Data Preprocessing
 
-Exploratory Data Analysis
+-Exploratory Data Analysis
 
-Feature Scaling
+-Feature Scaling
 
-Train-Test Split
+-Train-Test Split
 
-Model Training
+-Model Training
 
-Model Evaluation
+-Model Evaluation
 
-Model Comparison
+-Model Comparison
 
-Deployment using Streamlit
+-Deployment using Streamlit
 
-🛠️ Technologies Used
+##🛠️ Technologies Used
 
 Python
 
@@ -75,7 +75,7 @@ Seaborn
 
 Streamlit
 
-🧰 Tools Used
+##🧰 Tools Used
 
 Jupyter Notebook
 
@@ -83,7 +83,7 @@ VS Code
 
 GitHub
 
-🌐 Web Application Features
+##🌐 Web Application Features
 
 Login Interface
 
@@ -95,7 +95,7 @@ Interactive UI
 
 Real-time detection
 
-🚀 How to Run the Project
+##🚀 How to Run the Project
 1️⃣ Clone repository
 git clone https://github.com/your-username/fraud-detection.git
 cd fraud-detection
@@ -117,25 +117,27 @@ Go to:
 
 http://localhost:8501
 
-📂 Project Structure
-fraud-detection/
+##📂 Project Structure
+credit-card-fraud-detection/
 │
-├── creditcard.csv
-├── fraud_model.pkl
 ├── app.py
-├── notebook.ipynb
+├── fraud_model.ipynb
+├── creditcard_fraud.png
+├── screenshots/
 ├── README.md
+├── requirements.txt
 
-📈 Results
+##📈 Results
 Model	Accuracy
 Logistic Regression	~98–99%
 Gradient Boosting	~99.8%
 Random Forest	~99.9%
-🏗️ System Architecture
+
+##🏗️ System Architecture
 
 User Input → Preprocessing → ML Model → Prediction → Result Display
 
-🔮 Future Improvements
+##🔮 Future Improvements
 
 Use SMOTE for imbalance handling
 
@@ -149,7 +151,7 @@ Add fraud probability score
 
 Use XGBoost
 
-📚 References
+##📚 References
 
 Kaggle Credit Card Fraud Dataset
 
@@ -159,6 +161,6 @@ Research papers on Fraud Detection
 
 Streamlit Documentation
 
-👩‍💻 Author
+##👩‍💻 Author
 
 Mrudula Sonawane
