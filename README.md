@@ -17,7 +17,7 @@ Deploy model using a web interface
 
 Provide real-time prediction
 
-##📊 Dataset
+**📊 Dataset**
 
 The dataset used is the Credit Card Fraud Detection dataset from Kaggle.
 
@@ -163,4 +163,5 @@ Streamlit Documentation
 **👩‍💻 Author**
 
 Mrudula Sonawane
+
 
